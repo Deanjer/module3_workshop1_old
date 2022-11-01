@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="upperline"></div>
+        <audio controls id="linkAudio">
+            <source src="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" type="audio/ogg">
+            <source src="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+          <div class="nummers">
+          <p href="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" id="link_id">1. High on life(martin garix)</p>
+          <p href="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" id="link_id">2. High on life(martin garix)</p>
+          <p href="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" id="link_id">3. High on life(martin garix)</p>
+          <p href="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" id="link_id">4. High on life(martin garix)</p>
+          <p href="assets/audio/Martin_Garrix_feat_Bonn_High_On_Life_Official_.mp3" id="link_id">5. High on life(martin garix)</p>
+          </div>
+          <script>
+            document.getElementById("link_id").addEventListener("click", function () {
+              document.getElementById("linkAudio").play();
+            });
+          </script>
+    </div>
+</body>
+</html>
